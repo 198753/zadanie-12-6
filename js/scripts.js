@@ -10,7 +10,7 @@ function searchCountries() {
 		url: url + countryName,
 		method: 'GET',
 		success: showCountriesList
-		});
+	});
 }
 
 function showCountriesList(resp) {
